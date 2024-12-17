@@ -1,0 +1,12 @@
+{
+  "name": "trees2",
+  "version": "1.0.0",
+  "main": "binary-tree.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
