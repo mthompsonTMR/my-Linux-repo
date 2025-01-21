@@ -1,0 +1,80 @@
+body {
+  font-family: 'Copse', sans-serif;
+  background-color: #f4f4f4; /* Light neutral background */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333; /* Contrast text */
+}
+
+/* Title Styling */
+h1 {
+  font-size: 2.5rem;
+  color: #115ff4; /* Vibrant blue */
+  margin: 20px 0;
+}
+
+/* Table Styling */
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 4px solid #060ce9; /* Deep blue border */
+  background-color: #74119c; /* Dark purple background for the table */
+  color: white; /* White text */
+}
+
+th, td {
+  border: 2px solid #8d2ab5; /* Medium purple for cell borders */
+  padding: 15px;
+  text-align: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+th {
+  background-color: #28a200; /* Green for headers */
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+td {
+  background-color: #060ce9; /* Deep blue for questions */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+td:hover {
+  background-color: #28a200; /* Green hover effect */
+  color: white;
+}
+
+/* Clicked Cell Styling */
+td.clicked {
+  background-color: #8d2ab5; /* Medium purple for clicked cells */
+  color: white;
+  cursor: default;
+}
+
+/* Restart Button Styling */
+button {
+  background-color: #115ff4; /* Vibrant blue */
+  color: white;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 20px auto;
+  display: block;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #060ce9; /* Deep blue hover */
+  transform: scale(1.1); /* Slight zoom effect */
+}
+
+button:active {
+  background-color: #28a200; /* Green active state */
+  transform: scale(1.05);
+}
