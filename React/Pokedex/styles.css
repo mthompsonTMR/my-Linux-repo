@@ -1,0 +1,45 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.pokecard {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  background-color: white;
+  width: 150px;
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+}
+
+
+.pokecard:hover {
+  transform: scale(1.1);
+}
+
+.pokedex {
+  border: 2px solid #222;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.winner {
+  background-color: #c8e6c9;
+  border-color: #4caf50;
+}
+
+.loser {
+  background-color: #ffebee;
+  border-color: #f44336;
+}
+
+.pokedex-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
